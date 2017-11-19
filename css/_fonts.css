@@ -1,0 +1,381 @@
+
+/*
+* Fonts
+* -----------------
+*/
+
+@font-face {
+  font-family: "DIN Next LT W01 Light Italic";
+  src: url("../assets/fonts/a819beca-e31b-40b3-bc54-23a8a4a8444d.eot?#iefix");
+  src: url("../assets/fonts/a819beca-e31b-40b3-bc54-23a8a4a8444d.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/432c9e2a-ea2e-479f-8920-a944904adff2.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/a062545d-8a1d-4a8c-88ce-48870c7cb3ca.woff") format("../assets/fonts/woff"), url("../assets/fonts/e157e6e0-4dd1-4632-9846-e2534d9e08d0.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/50f38315-a8de-45f0-9c28-cd8d6d8fbaf1.svg#50f38315-a8de-45f0-9c28-cd8d6d8fbaf1") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next LT W01 Italic";
+  src: url("../assets/fonts/43545a34-77fc-4613-a2ba-eb1f06bdfd5e.eot?#iefix");
+  src: url("../assets/fonts/43545a34-77fc-4613-a2ba-eb1f06bdfd5e.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/e8258209-d292-4480-9fe3-b30dfa63ea97.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/c3cbbafb-1878-424d-b2f5-b176d0f9b370.woff") format("../assets/fonts/woff"), url("../assets/fonts/099f3b78-1eec-4286-a243-a204d96fec0b.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/624726ad-3e0e-4320-9e50-95bc237b8227.svg#624726ad-3e0e-4320-9e50-95bc237b8227") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next LT W01 Medium Italic";
+  src: url("../assets/fonts/d181cd2c-c18f-40b3-8015-ac0d8be14b05.eot?#iefix");
+  src: url("../assets/fonts/d181cd2c-c18f-40b3-8015-ac0d8be14b05.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/e7938824-19f4-4f10-a2f1-a0bf5f7ab502.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/34afc1f7-a48d-4091-83dc-cd888e3d0df8.woff") format("../assets/fonts/woff"), url("../assets/fonts/aaa4548c-32c0-4f02-b77c-0643beb254cd.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/70696ae6-4188-482d-bb06-7e52cedd804e.svg#70696ae6-4188-482d-bb06-7e52cedd804e") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next LT W01 Bold";
+  src: url("../assets/fonts/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix");
+  src: url("../assets/fonts/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/03008527-67bd-478e-98e3-3b56dd9a6520.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff") format("../assets/fonts/woff"), url("../assets/fonts/92ed1479-1d40-4a94-8baf-6abd88b17afa.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/36ae914b-b535-47cd-b3d2-8c43073d8634.svg#36ae914b-b535-47cd-b3d2-8c43073d8634") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next LT W01 Bold Italic";
+  src: url("../assets/fonts/c7856406-b320-4e5b-9164-4d8189fa62dd.eot?#iefix");
+  src: url("../assets/fonts/c7856406-b320-4e5b-9164-4d8189fa62dd.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/a6eb0ff6-9fe2-47b1-947e-fe6d477fea22.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/194d1c66-dc36-4c21-90af-3fe62de2fc02.woff") format("../assets/fonts/woff"), url("../assets/fonts/fde4eb42-4987-45b3-85d5-634e80fa1701.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/990c8018-6aa0-44ca-9cc0-bdebaf6dea9e.svg#990c8018-6aa0-44ca-9cc0-bdebaf6dea9e") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DINNextW01-CondensedMed";
+  src: url("../assets/fonts/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix");
+  src: url("../assets/fonts/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/76b8cda6-0ded-4197-acab-e314297eb90f.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/2613a064-2962-44af-ae6f-3640e06e8dc4.woff") format("../assets/fonts/woff"), url("../assets/fonts/2889b152-497e-4ea3-a90d-02854d136a8d.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/4f311da1-9ec6-4379-9621-b45be0e23abd.svg#4f311da1-9ec6-4379-9621-b45be0e23abd") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next LT W01 Medium Cond It";
+  src: url("../assets/fonts/14476c1d-0c32-41d2-aa6d-9afe95f0149f.eot?#iefix");
+  src: url("../assets/fonts/14476c1d-0c32-41d2-aa6d-9afe95f0149f.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/d2297395-21f1-45d2-9192-2e75249cb766.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/81b35f3b-6458-4bb3-8b9f-162e5cd2adb9.woff") format("../assets/fonts/woff"), url("../assets/fonts/e711e947-649a-4b37-a2b0-175b75ac03e5.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/48139e13-d162-469c-a411-ab5f3b041a36.svg#48139e13-d162-469c-a411-ab5f3b041a36") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next W01 Light";
+  src: url("../assets/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+  src: url("../assets/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("../assets/fonts/woff"), url("../assets/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "DIN Next W01 Regular";
+  src: url("../assets/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
+  src: url("../assets/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("../assets/fonts/woff"), url("../assets/fonts/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("../assets/fonts/truetype");
+}
+
+@font-face {
+  font-family: "DIN Next W01 Regular";
+  src: url("../assets/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
+  src: url("../assets/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("../assets/fonts/woff"), url("../assets/fonts/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("../assets/fonts/truetype");
+}
+
+@font-face {
+  font-family: "DIN Next W01 Medium";
+  src: url("../assets/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix");
+  src: url("../assets/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/be607c9f-3c81-41b4-b7ad-17af005c80bb.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/4bf0ead4-e61b-4992-832b-6ff05828d99f.woff") format("../assets/fonts/woff"), url("../assets/fonts/73713a0b-8f6a-4c4e-b8a8-7cf238e632f6.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/b90b6bdf-15e2-4544-9fe0-92c79fff0ecd.svg#b90b6bdf-15e2-4544-9fe0-92c79fff0ecd") format("../assets/fonts/svg");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/open-sans-v15-latin-regular.eot?#iefix");
+  src: url("../assets/fonts/open-sans-v15-latin-regular.eot?#iefix") format("../assets/fonts/eot"), url("../assets/fonts/open-sans-v15-latin-regular.woff2") format("../assets/fonts/woff2"), url("../assets/fonts/open-sans-v15-latin-regular.woff") format("../assets/fonts/woff"), url("../assets/fonts/open-sans-v15-latin-regular.ttf") format("../assets/fonts/truetype"), url("../assets/fonts/open-sans-v15-latin-regular.svg") format("../assets/fonts/svg");
+}
+
+
+/*
+* Base
+* -----------------
+*/
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+/*  // @include rem("font-size", $font-size-md);*/
+  font-family: 'DIN Next W01 Regular', sans-serif;
+  line-height: 1.3;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+/*  // @include rem("margin", 0, 0, 5, 0);*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+/*  // @include rem("margin", 0, 0, 10, 0);*/
+  font-weight: normal;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+/*
+* Component specific
+* -----------------
+*/
+.card {
+  *zoom: 1;
+}
+.card:before, :after {
+  content: "";
+  display: table;
+}
+.card:after {
+  clear: both;
+}
+
+
+/*
+BEM notes:
+.card
+  .label
+  .link
+
+
+.card--explore
+  .label
+  .link
+
+  .media-frame
+    .media-hero
+  .media-body
+    .media-body__title
+    .media-body__footer-desc
+      .body__secondary
+      .body__micro-desc
+
+
+.card--lob
+  .label
+  .link
+
+  .media-frame
+    .media-hero
+  .media-body__title
+
+
+.card--media
+  .label
+  .link
+
+  .media-frame
+    .media-hero
+  .media-body
+    .media-body__title
+    .media-body__secondary
+
+
+.card--merch
+  .label
+  .link
+
+  .media-frame
+    .media-hero
+  .media-body
+    .media-body__title
+    .media-body__secondary
+
+*/
+
+
+
+.card {
+  background-color: #c2c2c2;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  height: auto;
+  overflow: hidden;
+  display: table;
+  box-sizing: border-box;
+/*  padding: 15px;*/
+}
+
+.card .card__mediaBody {
+  padding-top: 12px;
+  padding-left: 20px;
+  margin: 0;
+  background-color: #121212;
+  text-align: left;
+  height: 145px;
+  position: relative;
+}
+
+.card .card__mediaBody .mediaBody__title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.card .card__mediaBody .mediaBody__footerdesc {
+  position: absolute;
+  bottom: 20px;
+}
+
+.card .card__mediaBody .mediaBody__secondary {
+  color: #c3c3c3;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.card .card__mediaBody .mediaBody__microdesc {
+  color: #999;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.card .card__mediaBody .mediaBody__tag {
+  color: #a6a6a6;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 0;
+  /*margin: 2% 0 5%;*/
+}
+
+.card .card__mediaBody .mediaBody__tag-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card .card__mediaBody .mediaBody__tag-link {
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #d1d1d1;
+  padding: 14px 57px;
+}
+
+.card .card__mediaFrame {
+  background: #c00;
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card .card__mediaFrame img {
+  width: 100%;
+  position: relative;
+}
+
+.card .card__mediaFrame .thumbnail__media {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+/*
+* Page only
+* -----------------
+*/
+.wrapper {
+  padding: 50px;
+}
+
+.island {
+  border: 1px solid #e6e6e6;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+
+
+
+/*
+To do:
+
+1. Dial in proper text sizes for all break points
+2. R&D high-pixel density image tags and sourcesets
+https://www.html5rocks.com/en/mobile/high-dpi/
+
+3. R&D responsive lazy-loading cards best practices
+*/
+
+
+
+
+
+/*
+* Media Queries
+* -----------------
+*/
+
+/* media queries start at 375*/
+.card .card__mediaBody .mediaBody__tag {
+
+}
+
+
+@media (min-width: 600px) {
+  .card .card__mediaBody .mediaBody__secondary,
+  .card .card__mediaBody .mediaBody__microdesc {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card .card__mediaBody .mediaBody__title {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 838px) {}
+
+@media (min-width: 960px) {
+
+}
+
+/* max width is 1240 */

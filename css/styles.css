@@ -1,0 +1,7 @@
+.island {
+	border: 1px solid #e6e6e6;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
