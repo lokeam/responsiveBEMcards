@@ -147,6 +147,18 @@ a {
     box-sizing: border-box;
 }
 
+/**
+* External grid specific
+*/
+.testGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 20px;
+}
+
+
+
 
 
 /*
@@ -234,6 +246,7 @@ BEM notes:
   display: table;
   box-sizing: border-box;
   box-shadow: none;
+  border: 1px solid #000;
 }
 
 .card--explore {
@@ -342,10 +355,16 @@ BEM notes:
   transform: translate3d(0, 0, 0) scale(1.0, 1.0);
   transition: all 0.17s ease-in-out;
   will-change: transform;
+  box-sizing: border-box;
 }
 
 .card--lob .card__mediaFrame:hover {
   transform: translate3d(0, -2%, 0);
+}
+
+.card--lob .card__mediaBody {
+  max-height: 50px;
+  overflow: hidden;
 }
 
 
@@ -390,12 +409,43 @@ https://www.html5rocks.com/en/mobile/high-dpi/
 */
 
 /* media queries start at 375*/
-.card .card__mediaBody .mediaBody__tag {
-
+.card .two-col {
+  grid-column: 2;
 }
 
+.card .three-col {
+  grid-column: 3;
+}
+
+.card .four-col {
+  grid-column: 4;
+}
+
+.card .six-col {
+  grid-column: 6;
+}
+
+.card .twelve-col {
+  grid-column: 12;
+}
 
 @media (min-width: 600px) {
+
+  /*
+  refernce:
+  https://medium.com/gymnasium/css-grid-layout-a-cornucopia-of-options-90a5ee10ad9f
+  http://jensimmons.com/post/feb-27-2017/learn-css-grid
+  https://rachelandrew.co.uk/css/cheatsheets/box-alignment
+  https://codepen.io/anon/pen/POBGQr;
+
+
+    At 838px, six col becomes two
+
+
+    At 375px, all cols save full become two col
+    (grid-column: 2)
+   */
+
   .card .card__mediaBody .mediaBody__secondary,
   .card .card__mediaBody .mediaBody__microdesc {
     font-size: 14px;
